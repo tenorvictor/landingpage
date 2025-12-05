@@ -1,0 +1,219 @@
+/* Estilos para la landing page de VIDAUDIO */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #0f5b36;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Cabecera */
+
+header {
+  background: linear-gradient(90deg, #cfbebe, #dda043, #e66e23);
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fuentes descargadas de Google fonts */
+
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-<uniquifier> {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+/* Logo principal de la escuela */
+
+.logo {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.logo img {
+  height: 180px; /* más grande */
+  max-width: 90%;
+  margin-bottom: 1rem;
+}
+
+.logo h1 { /* texto para el logo */
+  margin: 0;
+  font-size: 3rem; 
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+   color: #0f5b36;
+}
+
+.logo p {
+  margin: 0.3rem 0 1.5rem 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight:500; 
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  font-family: 'Amatic SC', sans-serif;
+  background-color: #e66e23;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #cfbebe;
+  color: #0f5b36;
+}
+
+/* Cuerpo central de la página */
+
+main {
+  flex: 1;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.intro h2 {
+  color: #0f5b36;
+  font-size: 2rem;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+  color: #0f5b36;
+}
+
+.intro p {
+  max-width: 700px;
+  margin: 1rem auto;
+  line-height: 1.6;
+  color: #333;
+  font-family: monospace;  
+}
+
+.intro-image {
+  width: 50%;      
+  height: auto;     
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.yo-image {
+  width: 50%;      
+  height: auto;     
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Central para enlace a YouTube */
+
+.youtube {
+  background: linear-gradient(90deg, #cfbebe, #dda043, #e66e23);
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.youtube h3 {
+  font-family: 'Amatic SC', sans-serif;
+  color: #0f5b36;
+  margin-bottom: 1rem;
+}
+
+.yt-button {
+  font-family: 'Amatic SC', sans-serif;
+  background-color: #e66e23;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.yt-button:hover {
+  background-color: #dda043;
+}
+
+/* Redes sociales, enlaces de abajo */
+
+.socials {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 20px;
+  margin-top: 3rem;
+}
+
+.social-links a {
+  font-family: 'Amatic SC', sans-serif;
+  display: inline-block;
+  margin: 0.5rem 1rem;
+  text-decoration: none;
+  color: #0f5b36;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.social-links a:hover {
+  border-color: #e66e23;
+}
+
+/* Pie de página */
+
+footer {
+  font-family: 'Amatic SC', sans-serif;
+  background: linear-gradient(90deg, #0f5b36, #dda043, #e66e23);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+/* Para la página de información personal */
+
+.cv {
+  font-family: 'Amatic SC', sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+}
+.cv p {font-family: monospace}
+
+header, .youtube, footer {
+  transition: background 0.5s ease;
+}
